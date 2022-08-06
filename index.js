@@ -43,7 +43,7 @@
     });
 
     Handlebars.registerHelper('MY', function(date) {
-    	return moment(date.toString(), ['YYYY-MM-DD']).format('MMMM YYYY');
+    	return moment(date.toString(), ['YYYY-MM-DD']).format('MMM YYYY');
     });
 
     Handlebars.registerHelper('Y', function(date) {
